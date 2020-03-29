@@ -1,6 +1,6 @@
 ---
 title: "Lorem Ipsum"
-date: "2017-09-18T23:19:51.246Z"
+date: "2017/09/18"
 ---
 No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor
 <!-- endexcerpt -->

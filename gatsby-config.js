@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Crear páginas en Gatsby`,
+    description: `Tutorial de como crear páginas programaticamente en gatsby`,
+    author: `@ivanlhz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
