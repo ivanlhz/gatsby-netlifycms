@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ivanlhz/gatsby-netlifycms
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: post
+    label: Post
+    folder: src/posts
+    create: true
+    fields:
+      - {name: slug, label: Slug}
+      - {name: date, label: Fecha, widget: datetime}
+      - {name: title, label: Titulo}
+      - {name: body, label: Cuerpo, widget: markdown}
